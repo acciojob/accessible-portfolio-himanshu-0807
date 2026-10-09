@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<title>My Accessible Portfolio</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header><h1>Inception</h1></header>
-<nav><a id="nav-actor" href="#actor">Actors</a> | <a id="nav-quote" href="#quote">Quotes</a></nav>
-<details open><summary>A thief who steals secrets through dream-sharing technology is given the task of planting an idea inside a target's mind.</summary></details>
-<section id="actor"><h2>Actors</h2><p>Leonardo DiCaprio as Cobb, Joseph Gordon-Levitt as Arthur, and Elliot Page as Ariadne.</p></section>
-<section id="quote"><h2>Favorite Quote</h2><p>Dreams feel real while we are in them.</p></section>
-<aside>IMDb rating: 8.8/10. Release date: 16 July 2010.</aside>
-<footer>Produced by: Emma Thomas</footer>
+<h1 role="heading">My Accessible Portfolio</h1>
+<nav role="navigation"><a href="#about">About</a> <a href="#skills">Skills</a> <a href="#contact">Contact</a></nav>
+<img role="img" src="profile.jpg" alt="Portrait of the portfolio owner">
+<p id="about">I am a software developer who enjoys building accessible and user friendly web applications.</p>
+<ul role="list" id="skills">
+<li role="listitem">HTML</li>
+<li role="listitem">CSS</li>
+<li role="listitem">JavaScript</li>
+</ul>
 <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
